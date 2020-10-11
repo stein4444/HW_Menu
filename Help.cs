@@ -16,9 +16,7 @@ namespace Intrfca_hw
         }
         public override void Execute()
         {
-            Console.WriteLine();
-            Console.WriteLine("Try to use number: 1,2,3");
-            Console.WriteLine(); 
+            Console.WriteLine("\nTry to use number: 1,2,3\n");
         }
 
         public override void Print()

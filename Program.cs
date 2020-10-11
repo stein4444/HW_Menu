@@ -12,7 +12,6 @@ namespace Intrfca_hw
         { 
             Menu m = new Menu();
             m.startAction();
-
         }
     }
 }

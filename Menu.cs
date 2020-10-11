@@ -16,11 +16,7 @@ namespace Intrfca_hw
                 new Exit()
 
             };
-        public Menu()
-        {
-         
-        }
-
+        public Menu() { }
         public void DrowMenu()
         {
             foreach(var item in menu)
@@ -34,7 +30,6 @@ namespace Intrfca_hw
             int numb = 0;
             while (true)
             {
-               
                 DrowMenu();
                 Console.Write("Enter number: ");
                 numb = int.Parse(Console.ReadLine());
@@ -44,9 +39,16 @@ namespace Intrfca_hw
         }
         public void Choice(int numb)
         {
-            var el = menu[numb - 1];
-            el.Execute();
-                
+            if(numb<= 1 || numb > 3)
+            {
+                 Console.WriteLine("\nUse numbers from 1 to 3\n");
+                return;
+            }
+            else
+            {
+                var el = menu[numb - 1];
+                el.Execute();
+            }     
         }
 
     }
