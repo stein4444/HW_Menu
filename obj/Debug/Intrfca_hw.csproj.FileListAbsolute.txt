@@ -1,0 +1,7 @@
+E:\c# 2semestr\Intrfca_hw\bin\Debug\Intrfca_hw.exe.config
+E:\c# 2semestr\Intrfca_hw\bin\Debug\Intrfca_hw.exe
+E:\c# 2semestr\Intrfca_hw\bin\Debug\Intrfca_hw.pdb
+E:\c# 2semestr\Intrfca_hw\obj\Debug\Intrfca_hw.csprojAssemblyReference.cache
+E:\c# 2semestr\Intrfca_hw\obj\Debug\Intrfca_hw.csproj.CoreCompileInputs.cache
+E:\c# 2semestr\Intrfca_hw\obj\Debug\Intrfca_hw.exe
+E:\c# 2semestr\Intrfca_hw\obj\Debug\Intrfca_hw.pdb

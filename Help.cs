@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Intrfca_hw
+{
+    class Help : MenuItem
+    {
+        public override string Text { get; set; }
+
+        public Help()
+        {
+            this.Text = "[2] - Help";
+        }
+        public override void Execute()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Try to use number: 1,2,3");
+            Console.WriteLine(); 
+        }
+
+        public override void Print()
+        {
+            Console.WriteLine(Text);
+        }
+    }
+}
