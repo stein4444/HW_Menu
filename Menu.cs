@@ -39,7 +39,7 @@ namespace Intrfca_hw
         }
         public void Choice(int numb)
         {
-            if(numb<= 1 || numb > 3)
+            if(numb <= 1 || numb > 3)
             {
                  Console.WriteLine("\nUse numbers from 1 to 3\n");
                 return;
